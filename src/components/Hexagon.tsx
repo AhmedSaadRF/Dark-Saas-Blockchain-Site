@@ -12,6 +12,7 @@ export const Hexagon = (props: ComponentPropsWithoutRef<'svg'>) => {
       stroke="currentColor"
       strokeWidth="6"
       xmlns="http://www.w3.org/2000/svg"
+      className={twMerge("text-fuchsia-500/10 -rotate-6", className)}
       {...restProps}
     >
       <path
