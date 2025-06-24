@@ -8,5 +8,7 @@ This is a Astro JS Website
 3_Finish Hero Section.   
 4_Add Hero Section Style Classes.   
 5_Finish Cut Corner Button Component.   
+6_Add Cut Corner Button Component Style Classes.   
+
 
 
