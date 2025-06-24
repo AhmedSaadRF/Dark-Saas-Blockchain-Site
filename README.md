@@ -11,6 +11,8 @@ This is a Astro JS Website
 6_Add Cut Corner Button Component Style Classes.   
 7_Finish Hexagon Component.   
 8_Add Hexagon Component Style Classes.   
+9_Finish Circle Component.   
+
 
 
 
