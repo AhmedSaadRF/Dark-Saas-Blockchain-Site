@@ -12,6 +12,8 @@ This is a Astro JS Website
 7_Finish Hexagon Component.   
 8_Add Hexagon Component Style Classes.   
 9_Finish Circle Component.   
+10_Add Circle Component Style Classes.   
+
 
 
 
