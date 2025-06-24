@@ -6,4 +6,5 @@ This is a Astro JS Website
 1_Finish Header Section.   
 2_Add Header Section Style Classes.   
 3_Finish Hero Section.   
+4_Add Hero Section Style Classes.   
 
