@@ -9,6 +9,8 @@ This is a Astro JS Website
 4_Add Hero Section Style Classes.   
 5_Finish Cut Corner Button Component.   
 6_Add Cut Corner Button Component Style Classes.   
+7_Finish Hexagon Component.   
+
 
 
 
