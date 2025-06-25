@@ -26,6 +26,8 @@ This is a Astro JS Website
 21_Add Tag Component Style Classes.   
 22_Finish Card Component.   
 23_Add Card Component Style Classes.   
+24_Finish Testimonials Section.   
+
 
 
 
