@@ -32,7 +32,7 @@ This is a Astro JS Website
 27_Add Call To Action Section Style Classes.   
 28_Finish Footer Section.   
 29_Add Footer Section Style Classes.   
-
+30_Finish Hero Section Animation.  
 
 
 
