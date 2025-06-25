@@ -31,6 +31,7 @@ This is a Astro JS Website
 26_Finish Call To Action Section.   
 27_Add Call To Action Section Style Classes.   
 28_Finish Footer Section.   
+29_Add Footer Section Style Classes.   
 
 
 
