@@ -19,6 +19,8 @@ This is a Astro JS Website
 14_Add Features Grid Section Style Classes.   
 15_Finish Text Button Component.   
 16_Add Text Button Component Style Classes.   
+17_Finish Latest Posts Section.   
+
 
 
 
