@@ -28,6 +28,10 @@ This is a Astro JS Website
 23_Add Card Component Style Classes.   
 24_Finish Testimonials Section.   
 25_Add Testimonials Section Style Classes.   
+26_Finish Call To Action Section.   
+27_Add Call To Action Section Style Classes.   
+
+
 
 
 
