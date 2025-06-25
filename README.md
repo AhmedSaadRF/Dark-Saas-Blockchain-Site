@@ -23,6 +23,8 @@ This is a Astro JS Website
 18_Add Latest Posts Section Style Classes.   
 19_Finish Post Utils.  
 20_Finish Tag Component.   
+21_Add Tag Component Style Classes.   
+
 
 
 
