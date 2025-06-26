@@ -56,7 +56,7 @@ export const FeaturesCardsSection = () => {
           <div className="flex flex-none gap-8">
             {cardData.map(({ image, title, description, color }) => (
               <div
-                className="inline-flex transition-all duration-500"
+                className="inline-flex transition-all duration-500 cursor-pointer"
                 onMouseEnter={() => setIsHovered(true) }
                 onMouseLeave={() => setIsHovered(false) }
                 style={{
