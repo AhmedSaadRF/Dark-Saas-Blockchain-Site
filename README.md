@@ -36,7 +36,7 @@ This is a Astro JS Website
 31_Finish Features Cards Section Animation.  
 32_Finish Features Grid Section Animation.  
 33_Finish Latest Posts Section Animation.
-
+34_Finish Testimonials Section Animation.  
 
 
 
