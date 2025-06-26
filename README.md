@@ -38,7 +38,7 @@ This is a Astro JS Website
 33_Finish Latest Posts Section Animation.
 34_Finish Testimonials Section Animation.  
 35_Finish Call To Action Section Animation.  
-36_Finish Header Navigation.  
+36_Finish Header Navigation Menu.  
 
 
 
