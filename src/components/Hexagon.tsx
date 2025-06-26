@@ -2,8 +2,8 @@ import { motion } from "framer-motion";
 import { useLayoutEffect, useRef, useState, type ComponentPropsWithoutRef } from "react";
 import { twMerge } from "tailwind-merge";
 
-export const Hexagon = (props: ComponentPropsWithoutRef<'svg'> & { size?: number }) => {
-  const { className, size = 800, ...restProps } = props;
+export const Hexagon = (props: ComponentPropsWithoutRef<'svg'> & { size?: number; reverse?: boolean; duration?: number }) => {
+  const { className, size = 800, reverse = false, duration = 30, ...restProps } = props;
   const pathRef = useRef<SVGPathElement | null>(null);
   const [totalPathLength, setTotalPathLength] = useState<number>();
 
@@ -52,11 +52,11 @@ export const Hexagon = (props: ComponentPropsWithoutRef<'svg'> & { size?: number
             strokeDashoffset: 0
           }}
           animate={{
-            strokeDashoffset: totalPathLength * -1,
+            strokeDashoffset: reverse ? totalPathLength : totalPathLength * -1,
           }}
           transition={{
             repeat: Infinity,
-            duration: 15,
+            duration,
             ease: 'linear',
           }}
           style={{
