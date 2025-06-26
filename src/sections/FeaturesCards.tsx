@@ -56,14 +56,15 @@ export const FeaturesCardsSection = () => {
           <div className="flex flex-none gap-8">
             {cardData.map(({ image, title, description, color }) => (
               <div
+                key={title}
                 className="inline-flex transition-all duration-500 cursor-pointer"
                 onMouseEnter={() => setIsHovered(true) }
                 onMouseLeave={() => setIsHovered(false) }
                 style={{
-                  transform: `translate-X(calc((-100% - 2rem) * ${selectedCardIndex}))`,
+                  transform: `translateX(calc((-100% - 2rem) * ${selectedCardIndex}))`,
                 }}
               >
-                <Card key={title} className="max-w-xs md:max-w-md" color={color}>
+                <Card className="max-w-xs md:max-w-md" color={color}>
                   <div className="flex justify-center -mt-28">
                     <div className="inline-flex relative">
                       <div className="absolute h-4 w-full top-[calc(100%+16px)] bg-zinc-950/70 group-hover:bg-zinc-950/30 transition duration-300 rounded-[100%] [mask-image:radial-gradient(closest-side,black,transparent)]"></div>
@@ -85,18 +86,16 @@ export const FeaturesCardsSection = () => {
         </div>
         <div className="flex justify-center mt-10">
           <div className="bg-zinc-950 inline-flex gap-4 p-2.5 rounded-full">
-            {[
-              cardData.map(({ title }, cardIndex) => (
-                <div
-                  key={title}
-                  className={twMerge(
-                    "size-2.5 bg-zinc-500 rounded-full cursor-pointer",
-                    cardIndex === selectedCardIndex && "bg-zinc-300"
-                  )}
-                  onClick={() => setSelectedCardIndex(cardIndex)}
-                ></div>
-              )),
-            ]}
+            {cardData.map(({ title }, cardIndex) => (
+              <div
+                key={title}
+                className={twMerge(
+                  "size-2.5 bg-zinc-500 rounded-full cursor-pointer",
+                  cardIndex === selectedCardIndex && "bg-zinc-300"
+                )}
+                onClick={() => setSelectedCardIndex(cardIndex)}
+              ></div>
+            ))}
           </div>
         </div>
       </div>
