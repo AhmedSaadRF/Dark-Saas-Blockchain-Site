@@ -48,7 +48,7 @@ export const HeaderSection = () => {
                 Get Started
               </CutCornerButton>
               <div
-                className="size-10 relative"
+                className="size-10 relative cursor-pointer"
                 onClick={() => setIsOpen((curr) => !curr)}
               >
                 <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
