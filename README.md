@@ -34,6 +34,7 @@ This is a Astro JS Website
 29_Add Footer Section Style Classes.   
 30_Finish Hero Section Animation.  
 31_Finish Features Cards Animation.  
+32_Finish Features Grid Animation.  
 
 
 
