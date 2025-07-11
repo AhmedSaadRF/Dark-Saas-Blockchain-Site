@@ -67,6 +67,7 @@ export const LatestPosts = (props: {
                   buttonText="Read More"
                   color={getPostColorFromCategory(category)}
                   className={twMerge(
+                    "cursor-pointer",
                     (postIndex === 0 || postIndex === 2) && "md:hidden"
                   )}
                 >

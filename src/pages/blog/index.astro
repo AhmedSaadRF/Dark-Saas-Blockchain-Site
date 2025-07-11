@@ -4,4 +4,10 @@
 // const posts = (await getCollection('blog')).sort(
 // 	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 // );
+import DefaultLayout from "../../layouts/BlogPost.astro";
+import { HeaderSection } from "../sections/Header.tsx";
 ---
+
+<DefaultLayout>
+  <HeaderSection client:load />
+</DefaultLayout>
