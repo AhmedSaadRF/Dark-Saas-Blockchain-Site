@@ -4,6 +4,7 @@ import DefaultLayout from "../../layouts/DefaultLayout.astro";
 import InteriorHero from "@/components/InteriorHero.astro";
 import { Tag } from "@/components/Tag";
 import { getPostColorFromCategory } from "@/utils/postUtils";
+import InteriorContent from "@/components/InteriorContent.astro";
 
 export async function getStaticPaths() {
   const posts = await getCollection("blog");
@@ -33,7 +34,7 @@ const { Content } = await post.render();
       <Tag color={getPostColorFromCategory(category)}>
         {category}
       </Tag>
-      <h1 class="font-heading font-black text-7xl text-center mt-4">
+      <h1 class="font-heading font-black text-5xl md:text-6xl lg:text-7xl text-center mt-4">
         {title}
       </h1>
       <p class="text-center text-xl mt-8 text-zinc-400 max-w-2xl mx-auto">
@@ -46,11 +47,11 @@ const { Content } = await post.render();
       </div>
     </div>
   </InteriorHero>
-  <section>
+  <InteriorContent>
     <div class="container">
-      <div class="prose prose-invert prose-lg mx-auto prose-zinc prose-headings:font-heading prose-headings:font-black prose-h2:text-5xl prose-h3:text-4xl">
+      <div class="prose prose-invert prose-lg mx-auto prose-zinc prose-headings:font-heading prose-headings:font-black prose-h2:text-3xl prose-h2:md:text-4xl prose-h2:lg:text-5xl prose-h3:text-2xl prose-h3:md:text-3xl prose-h3:lg:text-4xl">
         <Content />
       </div>
     </div>
-  </section>
+  </InteriorContent>
 </DefaultLayout>
