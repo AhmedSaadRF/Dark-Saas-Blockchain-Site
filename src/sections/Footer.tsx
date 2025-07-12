@@ -39,7 +39,7 @@ export const Footer = () => {
     <footer className="py-24 bg-zinc-950">
       <div className="container">
         <div className="flex justify-between items-center">
-          <div>
+          <div className="cursor-pointer">
             <img src="/assets/images/logo.svg" alt="Blockforge logo" />
           </div>
           <nav className="hidden md:flex text-zinc-500 font-heading font-black gap-12">
@@ -55,7 +55,7 @@ export const Footer = () => {
           </p>
           <div className="mt-4 md:mt-0 flex gap-6">
             {socialIcons.map((icon, index) => (
-              <div className="inline-flex size-10 bg-zinc-800 rounded-full items-center justify-center">
+              <div className="inline-flex size-10 bg-zinc-800 rounded-full items-center justify-center cursor-pointer">
                 {icon.icon}
               </div>
             ))}
