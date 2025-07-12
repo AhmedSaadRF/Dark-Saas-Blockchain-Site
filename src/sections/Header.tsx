@@ -40,7 +40,7 @@ export const HeaderSection = () => {
       <header className="sticky top-0 z-40 bg-zinc-900/50 backdrop-blur-lg">
         <div className="container">
           <div className="flex justify-between items-center h-24 md:h-28">
-            <div>
+            <div className="cursor-pointer">
               <img src="/assets/images/logo.svg" alt="Blockforge Logo" />
             </div>
             <div className="flex gap-4 items-center">
