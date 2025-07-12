@@ -50,6 +50,7 @@ This is a Astro JS Website
 45_Finish Contact Page.  
 46_Add Contact Page Style Classes.  
 47_Finish Input Component.  
+48_Add Input Component Style Classes.  
 
 
 
