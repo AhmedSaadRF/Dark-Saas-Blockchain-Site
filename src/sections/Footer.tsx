@@ -34,6 +34,25 @@ const socialIcons = [
   },
 ];
 
+const navLinks = [
+  {
+    title: "Home",
+    href: "/",
+  },
+  {
+    title: "Blog",
+    href: "/blog",
+  },
+  {
+    title: "Careers",
+    href: "/careers",
+  },
+  {
+    title: "Contact",
+    href: "/contact",
+  },
+];
+
 export const Footer = () => {
   return (
     <footer className="py-24 bg-zinc-950">
@@ -43,10 +62,10 @@ export const Footer = () => {
             <img src="/assets/images/logo.svg" alt="Blockforge logo" />
           </div>
           <nav className="hidden md:flex text-zinc-500 font-heading font-black gap-12">
-            <a href="#">Home</a>
-            <a href="#">Blog</a>
-            <a href="#">Careers</a>
-            <a href="#">Contact</a>
+            <a href={navLinks[0].href}>Home</a>
+            <a href={navLinks[1].href}>Blog</a>
+            <a href={navLinks[2].href}>Careers</a>
+            <a href={navLinks[3].href}>Contact</a>
           </nav>
         </div>
         <div className="mt-12 md:mt-48 md:flex justify-between items-center">
