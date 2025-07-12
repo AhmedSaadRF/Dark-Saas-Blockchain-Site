@@ -52,6 +52,8 @@ This is a Astro JS Website
 47_Finish Input Component.  
 48_Add Input Component Style Classes.  
 49_Finish Textarea Component.  
+50_Add Textarea Component Style Classes.  
+
 
 
 
