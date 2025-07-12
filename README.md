@@ -42,6 +42,7 @@ This is a Astro JS Website
 37_Finish Blog Page.  
 38_Add Blog Page Style Classes.  
 39_Finish Interior Hero Component.  
+40_Add Interior Hero Component Style Classes.  
 
 
 
