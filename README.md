@@ -41,6 +41,8 @@ This is a Astro JS Website
 36_Finish Header Navigation Menu.  
 37_Finish Blog Page.  
 38_Add Blog Page Style Classes.  
+39_Finish Interior Hero Component.  
+
 
 
 
