@@ -115,3 +115,92 @@ project-root/
 ├── package.json
 ├── tailwind.config.mjs
 └── tsconfig.json
+
+## 🧪 Getting Started
+
+### Prerequisites
+
+- **Node.js** (v18 or higher)
+- **npm**, **yarn**, or **pnpm**
+
+### Installation
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/AhmedSaadRF/dark-saas-blockchain-site.git
+   cd dark-saas-blockchain-site
+Install dependencies
+
+bash
+npm install
+Run the development server
+
+bash
+npm run dev
+Open http://localhost:4321 – default Astro port.
+
+📦 Build for Production
+bash
+npm run build
+The output will be in the dist/ folder. Deploy to Vercel, Netlify, or any static host.
+
+✍️ Content Management
+Blog Posts
+Location: src/content/blog/
+
+Format: Markdown (.md)
+
+Add a new post by creating a .md file with the required frontmatter.
+
+Job Positions
+Location: src/content/positions/
+
+Format: Markdown (.md)
+
+Each file represents a job opening (e.g., frontend-developer.md).
+
+The content collections are defined in src/content/config.ts using Astro’s built‑in collection schemas.
+
+🧩 Key Components
+Component	Purpose
+Card.tsx	Reusable card for features / posts
+Circle.tsx	Animated circle graphic
+CutCornerButton.tsx	Button with cut‑corner design
+Hexagon.tsx	Hexagon shape for visual accents
+Tag.tsx	Label / tag for categories
+TextButton.tsx	Text‑only button with hover effect
+🐞 Common Issues
+Tailwind classes not applying
+Make sure tailwind.config.mjs includes:
+
+js
+content: ['./src/**/*.{astro,js,ts,jsx,tsx}']
+Then restart the dev server.
+
+Content collection errors
+Verify that every Markdown file includes the required frontmatter fields defined in config.ts.
+
+Images not loading
+Check that image paths are correct (e.g., /assets/images/cone.png).
+Public assets are served from the root – do not add public/ to the path.
+
+📌 Future Improvements
+Add search functionality for blog posts
+
+Implement RSS feed
+
+Add dark/light mode toggle (currently dark‑only)
+
+Integrate a form handler for the contact page
+
+Add pagination for blog listing
+
+👨‍💻 Author
+Ahmed Saad Alrefaey (RFRF)
+
+GitHub: @AhmedSaadRF
+
+Portfolio: ahmed-alrefaey.vercel.app
+
+⭐️ If you like this project, give it a star on GitHub!
