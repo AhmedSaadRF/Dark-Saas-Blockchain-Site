@@ -162,14 +162,16 @@ Each file represents a job opening (e.g., frontend-developer.md).
 
 The content collections are defined in src/content/config.ts using Astro’s built‑in collection schemas.
 
-🧩 Key Components
-Component	Purpose
-Card.tsx	Reusable card for features / posts
-Circle.tsx	Animated circle graphic
-CutCornerButton.tsx	Button with cut‑corner design
-Hexagon.tsx	Hexagon shape for visual accents
-Tag.tsx	Label / tag for categories
-TextButton.tsx	Text‑only button with hover effect
+## 🧩 Key Components
+
+| Component            | Purpose                               |
+|----------------------|---------------------------------------|
+| `Card.tsx`           | Reusable card for features / posts    |
+| `Circle.tsx`         | Animated circle graphic               |
+| `CutCornerButton.tsx`| Button with cut‑corner design         |
+| `Hexagon.tsx`        | Hexagon shape for visual accents      |
+| `Tag.tsx`            | Label / tag for categories            |
+| `TextButton.tsx`     | Text‑only button with hover effect    |
 🐞 Common Issues
 Tailwind classes not applying
 Make sure tailwind.config.mjs includes:
