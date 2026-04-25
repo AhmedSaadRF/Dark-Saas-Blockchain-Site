@@ -1,87 +1,117 @@
-This is a Astro JS Website
+# 🌐 Dark SaaS Blockchain Site
 
-## Steps to Create Project
+A modern, content-rich website for a blockchain SaaS company, built with **Astro**, **Tailwind CSS**, and **TypeScript**. Includes a blog (Markdown posts), careers page (job positions), contact page, and dynamic sections.
 
-*_Upload Start Up Project Files.  
-1_Finish Header Section.   
-2_Add Header Section Style Classes.   
-3_Finish Hero Section.   
-4_Add Hero Section Style Classes.   
-5_Finish Cut Corner Button Component.   
-6_Add Cut Corner Button Component Style Classes.   
-7_Finish Hexagon Component.   
-8_Add Hexagon Component Style Classes.   
-9_Finish Circle Component.   
-10_Add Circle Component Style Classes.   
-11_Finish Features Cards Section.   
-12_Add Features Cards Section Style Classes.   
-13_Finish Features Grid Section.   
-14_Add Features Grid Section Style Classes.   
-15_Finish Text Button Component.   
-16_Add Text Button Component Style Classes.   
-17_Finish Latest Posts Section.   
-18_Add Latest Posts Section Style Classes.   
-19_Finish Post Utils.  
-20_Finish Tag Component.   
-21_Add Tag Component Style Classes.   
-22_Finish Card Component.   
-23_Add Card Component Style Classes.   
-24_Finish Testimonials Section.   
-25_Add Testimonials Section Style Classes.   
-26_Finish Call To Action Section.   
-27_Add Call To Action Section Style Classes.   
-28_Finish Footer Section.   
-29_Add Footer Section Style Classes.   
-30_Finish Hero Section Animation.  
-31_Finish Features Cards Section Animation.  
-32_Finish Features Grid Section Animation.  
-33_Finish Latest Posts Section Animation.
-34_Finish Testimonials Section Animation.  
-35_Finish Call To Action Section Animation.  
-36_Finish Header Navigation Menu.  
-37_Finish Blog Page.  
-38_Add Blog Page Style Classes.  
-39_Finish Interior Hero Component.  
-40_Add Interior Hero Component Style Classes.  
-41_Finish Interior Content Component.  
-42_Add Interior Content Component Style Classes.  
-43_Finish Careers Page.  
-44_Add Careers Page Style Classes.  
-45_Finish Contact Page.  
-46_Add Contact Page Style Classes.  
-47_Finish Input Component.  
-48_Add Input Component Style Classes.  
-49_Finish Textarea Component.  
-50_Add Textarea Component Style Classes.  
+![Site Preview](./public/assets/images/preview.png)
+> *Add a screenshot named `preview.png` inside `public/assets/images/` to display it.*
 
+---
 
+## 🚀 Features
 
+- ⚡ **Astro 4** – static site generator with partial hydration
+- 🎨 **Tailwind CSS** – fully responsive, dark-themed design
+- 📝 **Content Collections** – blog posts (`.md`) and job positions (`.md`)
+- 🧩 **Reusable components** – Card, Circle, CutCornerButton, Hexagon, Tag, TextButton
+- 📄 **Pages** – Home, Blog (index & individual posts), Careers, Contact
+- 🧠 **TypeScript** – type-safe content & components
+- 🗂️ **Modular sections** – Hero, FeaturesGrid, FeaturesCards, Testimonials, LatestPosts, CallToAction, Footer
 
+---
 
+## 🛠️ Tech Stack
 
+| Category          | Tools                                      |
+|-------------------|--------------------------------------------|
+| Framework         | Astro 4                                    |
+| Language          | TypeScript                                 |
+| Styling           | Tailwind CSS, CSS (global.css)             |
+| Content           | Markdown, Astro Content Collections        |
+| Icons & Assets    | SVG, PNG (in public/assets)                |
+| Deployment        | Vercel / Netlify (Astro adapter)           |
 
+---
 
+## 📁 Folder Structure (Expanded Tree)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+```plaintext
+project-root/
+├── public/
+│   └── assets/
+│       └── images/
+│           ├── avatar-*.jpg
+│           ├── cone.png
+│           ├── cube.png
+│           ├── cuboid.png
+│           ├── cut-corner.svg
+│           ├── cylinder.png
+│           ├── hemisphere.png
+│           ├── hexagon.svg
+│           ├── icosahedron.png
+│           ├── logo.svg
+│           ├── pill.png
+│           ├── torus-knot.png
+│           └── torus.png
+│   └── favicon.svg
+├── src/
+│   ├── components/
+│   │   ├── Card.tsx
+│   │   ├── Circle.tsx
+│   │   ├── CutCornerButton.tsx
+│   │   ├── Hexagon.tsx
+│   │   ├── Input.astro
+│   │   ├── InteriorContent.astro
+│   │   ├── InteriorHero.astro
+│   │   ├── Tag.tsx
+│   │   ├── TextButton.tsx
+│   │   ├── Textarea.astro
+│   │   └── .gitkeep
+│   ├── content/
+│   │   ├── blog/
+│   │   │   ├── blockchain-in-healthcare-new-frontier.md
+│   │   │   ├── blockchain-interoperability-connecting-networks.md
+│   │   │   ├── blockchain-role-decentralized-finance-defi.md
+│   │   │   ├── blockchain-scalability-challenges-solutions.md
+│   │   │   ├── blockchain-security-protecting-digital-assets.md
+│   │   │   ├── environmental-impact-of-blockchain.md
+│   │   │   ├── how-nfts-changing-digital-ownership.md
+│   │   │   ├── regulatory-challenges-facing-blockchain.md
+│   │   │   ├── smart-contracts-future-legal-agreements.md
+│   │   │   └── tokenomics-understanding-blockchain-economics.md
+│   │   └── positions/
+│   │       ├── frontend-developer.md
+│   │       ├── marketing-specialist.md
+│   │       ├── product-manager.md
+│   │       └── ux-designer.md
+│   │   └── config.ts                (content collection schema)
+│   ├── layouts/
+│   │   └── DefaultLayout.astro
+│   ├── pages/
+│   │   ├── blog/
+│   │   │   ├── [...slug].astro      (dynamic blog post route)
+│   │   │   └── index.astro          (blog listing)
+│   │   ├── careers.astro
+│   │   ├── contact.astro
+│   │   └── index.astro              (homepage)
+│   ├── sections/
+│   │   ├── CallToAction.tsx
+│   │   ├── FeaturesCards.tsx
+│   │   ├── FeaturesGrid.tsx
+│   │   ├── Footer.tsx
+│   │   ├── Header.tsx
+│   │   ├── Hero.tsx
+│   │   ├── LatestPosts.tsx
+│   │   └── Testimonials.tsx
+│   ├── styles/
+│   │   └── global.css
+│   ├── utils/
+│   │   └── postUtils.ts
+│   └── env.d.ts
+├── .gitignore
+├── .hintrc
+├── README.md
+├── astro.config.mjs
+├── package-lock.json
+├── package.json
+├── tailwind.config.mjs
+└── tsconfig.json
