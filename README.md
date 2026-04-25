@@ -2,7 +2,7 @@
 
 A modern, content-rich website for a blockchain SaaS company, built with **Astro**, **Tailwind CSS**, and **TypeScript**. Includes a blog (Markdown posts), careers page (job positions), contact page, and dynamic sections.
 
-![Site Preview](./public/assets/images/preview.png)
+![Site Preview](./public/dark-saas-blockchain-site.png)
 > *Add a screenshot named `preview.png` inside `public/assets/images/` to display it.*
 
 ---
